@@ -1,0 +1,3 @@
+# Unexpected Behavior with Negative Input in TypeScript Function
+
+This repository demonstrates a subtle bug in a TypeScript function that handles numerical input. The function `printNumbers` is intended to print numbers from 1 to n. However, when a negative number is passed as input, it silently does nothing instead of throwing an error or providing informative feedback. This unexpected behavior can lead to issues in applications if not properly addressed.  The solution provides a corrected version that includes error handling for negative input values.
